@@ -1,0 +1,39 @@
+<html>
+  <head>
+
+    <style>
+      div {
+        display: inline-block;
+      }
+
+    </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+
+  </head>
+
+  <body>
+    <h1>Life Progress</h1>
+    <div>
+      <select id="month">
+      </select>
+      <select id="day">
+      </select>
+      <select id="year">
+      </select>
+    </div>
+    <br/>
+    <hr>
+    <div>
+      You're at:
+      <div id="percent"></div>%
+    </div>
+    <br/>
+    <div>
+      <progress id="bar" value="30.75" max="100"></progress>
+
+    </div>
+    <script src="logic.js"></script>
+
+  </body>
+</html>
